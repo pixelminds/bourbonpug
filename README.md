@@ -21,7 +21,7 @@ Tools and resources used:
   * Bitters - base SASS variable set https://github.com/thoughtbot/bitters
   * Refills - Patterns and components http://refills.bourbon.io/ (Requires Bourbon+Neat). Used: cards, navigation, type system, footer.
 * **JQuery** CDN https://code.jquery.com/jquery-3.2.1.min.js - JQuery plugins:
-  * Parallax.js http://pixelcog.github.io/parallax.js/ for the parallax effect.
+  * Parallax.js http://pixelcog.github.io/parallax.js/ by PixelCog Inc. (http://pixelcog.com/about/) for the parallax effect.
   * Sticky.js http://stickyjs.com/ by Anthony Garand (http://anthonygarand.com/) for the sticky navigation bar.
 * Web resources:
   * **HTML 2 Jade** http://html2jade.org/ for the HTML > Jade(Pug) translation.
