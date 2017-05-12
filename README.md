@@ -1,4 +1,4 @@
-![Bourbonpug logo](https://github.com/pixelminds/bourbonpug/blob/master/bourbonpug_logo.png "Bourbonpug logo")
+[<img src="https://github.com/pixelminds/bourbonpug/blob/master/bourbonpug_logo.png" alt="Bourbonpug logo">](https://github.com/pixelminds/bourbonpug)
 # bourbonpug
 **Bourbonpug** is an opinionated template or boilerplate you can use as a starter for small static multipage websites. We included popular effects such as parallax images or sticky navigation, which you can of course use or not. As a core framework we used Bourbon, Neat, Bitters and Refills, which rely on JQuery for some dynamic behaviors. 
 
