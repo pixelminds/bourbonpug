@@ -18,8 +18,7 @@ Tools and resources used:
     Must use v. 1.8.0 (refills will not work with Neat v2).
   * Bitters - base SASS variable set https://github.com/thoughtbot/bitters
   * Refills - Patterns and components http://refills.bourbon.io/ (Requires Bourbon+Neat). Used: cards, navigation, type system, footer.
-* **JQuery** CDN https://code.jquery.com/jquery-3.2.1.min.js
-  JQuery plugins:
+* **JQuery** CDN https://code.jquery.com/jquery-3.2.1.min.js - JQuery plugins:
   * Parallax.js http://pixelcog.github.io/parallax.js/ for the parallax effect.
   * Sticky.js http://stickyjs.com/ by Anthony Garand (http://anthonygarand.com/) for the sticky navigation bar.
 * Web resources:
