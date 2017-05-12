@@ -5,6 +5,7 @@
 Editing in HTML and CSS would be specially tough without a template engine and a CSS preprocessor. In this project we rely on Jade and SASS. Jade is now called Pug, so now you know where we made the project name up from. By using mixins, nesting & variables in CSS and dry syntax with partials for the HTML structure, productivity is greatly enhanced. Despite this belief, we've had a bad experience with workflow or dependency managers based on node.js (gulp, grunt, bower), and we can't use solutions based in Ruby, because Windows is not Ruby-friendly. Our best candidate for processing is Prepros, so we included the Prepros config file.
 
 Jade is very helpful in drying the HTML syntax, but its real power arises when you use it as a templating language. In this project we've only used the partials feature, allowing us to write repetitive parts only once (header, footer).
+
 Installation: simply download **Bourbonpug** and drop the folder onto Prepros. 
 
 Usage: Any changes made to Jade or SCSS documents will be processed into HTML/CSS.
