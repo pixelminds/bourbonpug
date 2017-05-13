@@ -1,6 +1,7 @@
 [<img src="https://github.com/pixelminds/bourbonpug/blob/master/bourbonpug_logo.png" alt="Bourbonpug logo">](https://github.com/pixelminds/bourbonpug)
 
 # bourbonpug
+![https://img.shields.io/github/release/pixelminds/bourbonpug.svg]
 **Bourbonpug** is an opinionated template or boilerplate you can use as a starter for small static multipage websites. We included popular effects such as parallax images or sticky navigation, which you can of course use or not. As a core framework we used Bourbon, Neat, Bitters and Refills, which rely on JQuery for some dynamic behaviors. 
 
 Editing in HTML and CSS would be specially tough without a template engine and a CSS preprocessor. In this project we rely on Jade and SASS. Jade is now called Pug, so now you know where we made the project name up from. By using mixins, nesting & variables in CSS and dry syntax with partials for the HTML structure, productivity is greatly enhanced. Despite this belief, we've had a bad experience with workflow or dependency managers based on node.js (gulp, grunt, bower), and we can't use solutions based in Ruby, because Windows is not Ruby-friendly. Our best candidate for processing is Prepros, so we included the Prepros config file.
