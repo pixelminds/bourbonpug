@@ -5,7 +5,7 @@
  
 // variables (ITCSS settings, SMACSS base)
 
-// commonly used
+// ALL (commonly used)
   $base-spacing: 1.5em !default; //footer, type system, cards
   $action-color: #477DCA !default; //type system, navigation
   $medium-screen: 40em !default; //footer, type system
@@ -14,33 +14,23 @@
   $base-border-color: gainsboro !default; //navigation, cards
   $dark-gray: #333 !default; //type system, cards (navigation*)
 
+// LAYOUT
 // footer
   // $base-spacing
-  // $medium-screen: 40em !default;
-  // $large-screen: 53.75em !default;
+  // $medium-screen
+  // $large-screen
   $footer-background: desaturate(darken($action-color, 20%), 30%);
   $footer-color: white;
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
-// type system
-  // $base-border-radius: 3px !default;
-  $base-line-height: 1.5em !default;
-  // $base-spacing
-  // $action-color
-  // $dark-gray: #333 !default;
-  $light-gray: #ddd !default;
-  //$medium-screen: 40em !default;
-  $base-font-color: $dark-gray !default;
-  $sans-serif: "Nunito", sans-serif;
-  $sans-serif-2: "Varela Round", sans-serif;
-
+// TOOLS
 // navigation
   // $base-border-radius
   // $base-border-color
   // $action-color
   $dark-gray2: #068 !default; // *overriding refills default
-  // $large-screen: 53.75em !default;
+  // $large-screen
   $navigation-padding: 1em;
   $navigation-background: $dark-gray2;
   $navigation-color: transparentize(white, 0.3);
@@ -62,7 +52,7 @@
   $base-background-color: white !default;
   // $base-spacing
   // $action-color
-  // $dark-gray: #333 !default;
+  // $dark-gray
   $base-font-color: $dark-gray !default;
   $card-border-color: $base-border-color;
   $card-border: 1px solid $card-border-color;
@@ -71,3 +61,16 @@
   $card-margin: 1em;
   $card-image-hover-opacity: 0.7;
   $card-image-hover-color: #F8F2B4;
+
+// THEME
+// type system
+  // $base-border-radius
+  $base-line-height: 1.5em !default;
+  // $base-spacing
+  // $action-color
+  // $dark-gray
+  $light-gray: #ddd !default;
+  //$medium-screen
+  $base-font-color: $dark-gray !default;
+  $sans-serif: "Nunito", sans-serif;
+  $sans-serif-2: "Varela Round", sans-serif;
