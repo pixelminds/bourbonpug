@@ -9,6 +9,10 @@ Editing in HTML and CSS would be specially tough without a template engine and a
 
 Jade is very helpful in drying the HTML syntax, but its real power arises when you use it as a templating language. In this project we've only used the partials feature, allowing us to write repetitive parts only once (header, footer). Slim is another cool templating language, which many consider still dryer than Jade, plus it uses Ruby (just like SASS). But the include plugin is not working by default on Prepros, so I'm sticking to Jade.
 
+New in version 1.0.1 - CSS maintainability is managed by layering all the SCSS in logical groups. We tried to follow standards like SMACSS or ITCSS, but they didn't quite match our needs. We thought this project was small enough, and we wanted to feel confortable, so we made up our own file structure: resets > variables > layout > tools > elements > theme. Most of these files match one or other category in either ITCSS or SMACSS, except for 'variables'. The aim of this file is to gather all the theming parameters used across the other files, so one can quickly tweak the overall design in one place. If we had to find a name for this new method, I would probably call it Parametric ITCSS (or PITCSS).
+
+Regarding the naming conventions, and selector-level maintainability, since we're basically reusing existing components and resources, we decided not to tackle this issue, and leave all classes untouched. This is also important in the evetual case of upgrading part of the third party code. Moreover, we prefer keeping HTML as dry as possible, as semantic as possible (no classitis, no divitis), despite the widespread opinion that the best practice in CSS is to watch over specificity issues and to avoid tag selectors.
+
 Installation: simply download **Bourbonpug** and drop the folder onto Prepros. 
 
 Usage: Any changes made to Jade or SCSS documents will be processed into HTML/CSS.
