@@ -20,7 +20,7 @@ Any changes made to Jade or SCSS documents will be processed into HTML/CSS.
 * [**Prepros**](https://prepros.io/) by [Subash Pathak](https://github.com/Subash) for SASS / Jade preprocessing.
 * [**Initializr**](http://www.initializr.com/) by [Jonathan Verrecchia](http://verekia.com/) for the boilerplate essentials. Including [HTML5 Boilerplate](https://html5boilerplate.com/) v5.0 by the [H5BP Team](https://github.com/h5bp).
 * [**Bourbon**](http://bourbon.io) - Thanks to the design team at [Thoughtbot](http://thoughtbot.com/) for the Bourbon ecosystem.
-  * [Bourbon](https://github.com/thoughtbot/bourbon) v5.0.0.0 b7 - SASS mixins for fast prototyping.
+  * [Bourbon](https://github.com/thoughtbot/bourbon) v5.0.0 b7 - SASS mixins for fast prototyping.
   * [Neat](https://github.com/thoughtbot/neat) v1.8.0 - Semantic grid for use with Bourbon. Must use v. 1.8.0 (refills will not work with Neat v2).
   * [Bitters](https://github.com/thoughtbot/bitters) v1.5.0 - base SASS variable set.
   * [Refills](http://refills.bourbon.io/) - Patterns and components (requires Bourbon + Neat). Used: cards, navigation, type system, footer.
