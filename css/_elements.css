@@ -1,0 +1,32 @@
+ol.default {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-bottom: 1.2em;
+}
+
+ol.default > li {
+  margin-bottom: 0.3em;
+}
+
+ul.default {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-bottom: 1.2em;
+}
+
+ul.default > li {
+  margin-bottom: 0.3em;
+}
+
+img.right {
+  float: right;
+}
+
+p.social {
+  text-align: center;
+}
+
+i.fa {
+  padding: 0.5em;
+  font-size: 1.5em;
+}
