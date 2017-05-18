@@ -13,9 +13,9 @@ New in version 1.0.2 - CSS maintainability is managed by layering all the SCSS i
 
 In terms of naming conventions, and selector-level maintainability, since we're basically reusing existing components and resources, we decided not to tackle this issue, and leave all classes untouched. This is also important in the evetual case of upgrading part of the third party code. Moreover, we prefer keeping HTML as dry as possible, as semantic as possible (no classitis, no divitis), despite the widespread opinion that the best practice in CSS is to watch over specificity issues and to avoid tag selectors.
 ### Installation & Usage
-####Plain HTML/CSS
+#### Plain HTML/CSS
 Use this method if you're okay with the template design as it is, or need minor local changes, and basically just need to customize contents. Simply download **Bourbonpug**, and ignore jade / scss folders. Go ahead and edit HTML contents and CSS styles with your preferred editor.
-####With preprocessing
+#### With preprocessing
 If you need deeper changes, and want better control of the overall design, you should follow this method using Prepros, or port it to the workflow of your choice. Download **Bourbonpug** and drop the folder onto Prepros. Any changes made to Jade or SCSS documents will be processed into HTML/CSS.
 ### Tools and resources used
 * [**Prepros**](https://prepros.io/) by [Subash Pathak](https://github.com/Subash) for SASS / Jade preprocessing.
