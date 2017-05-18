@@ -12,10 +12,11 @@ Jade is very helpful in drying the HTML syntax, but its real power arises when y
 New in version 1.0.2 - CSS maintainability is managed by layering all the SCSS in logical groups. After a first attempt to bring up a custom architecture to fit our needs (1.0.1), we decided to follow the ITCSS standard. SMACSS is more topological, meaning that it separates selectors and elements depending on their global or local location within the layout. This looked conceptually more intuitive at first, but we ended up having unclassed elements and classes mixed with mixins. ITCSS uses a more code-level logic, and separates classes in a top-down scheme, with increasing specificity and decreasing reach. While this may feel less intuitive and less design-related, it's also less confusing. However, its main advantage is it uses the same sequence and logic of the CSS cascading hierarchy.
 
 In terms of naming conventions, and selector-level maintainability, since we're basically reusing existing components and resources, we decided not to tackle this issue, and leave all classes untouched. This is also important in the evetual case of upgrading part of the third party code. Moreover, we prefer keeping HTML as dry as possible, as semantic as possible (no classitis, no divitis), despite the widespread opinion that the best practice in CSS is to watch over specificity issues and to avoid tag selectors.
-### Installation
-Simply download **Bourbonpug** and drop the folder onto Prepros. 
-### Usage
-Any changes made to Jade or SCSS documents will be processed into HTML/CSS.
+### Installation & Usage
+####Plain HTML/CSS
+Use this method if you're okay with the template design as it is, or need minor local changes, and basically just need to customize contents. Simply download **Bourbonpug**, and ignore jade / scss folders. Go ahead and edit HTML contents and CSS styles with your preferred editor.
+####With preprocessing
+If you need deeper changes, and want better control of the overall design, you should follow this method using Prepros, or port it to the workflow of your choice. Download **Bourbonpug** and drop the folder onto Prepros. Any changes made to Jade or SCSS documents will be processed into HTML/CSS.
 ### Tools and resources used
 * [**Prepros**](https://prepros.io/) by [Subash Pathak](https://github.com/Subash) for SASS / Jade preprocessing.
 * [**Initializr**](http://www.initializr.com/) by [Jonathan Verrecchia](http://verekia.com/) for the boilerplate essentials. Including [HTML5 Boilerplate](https://html5boilerplate.com/) v5.0 by the [H5BP Team](https://github.com/h5bp).
