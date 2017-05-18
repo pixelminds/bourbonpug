@@ -1,11 +1,24 @@
-// Bourbonpug v1.0.1 -
+// Bourbonpug v1.0.2 -
 // by pixelminds, 2017 -
 // GNU General Public License v3 -
 // https://github.com/pixelminds/bourbonpug
 
-// theme (as in SMACSS)
+// 6. components (ITCSS)
+// UI pieces (SMACSS theme)
 
-// type system (refills)
+// 6.1 type system (refills)
+  // variables
+  // $base-border-radius
+  $base-line-height: 1.5em !default;
+  // $base-spacing
+  // $action-color
+  // $dark-gray
+  $light-gray: #ddd !default;
+  //$medium-screen
+  $base-font-color: $dark-gray !default;
+  $sans-serif: "Nunito", sans-serif;
+  $sans-serif-2: "Varela Round", sans-serif;
+
 article.type-system-rounded {
   @include clearfix;
   font-family: $sans-serif;

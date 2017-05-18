@@ -1,22 +1,58 @@
-// Bourbonpug v1.0.1 -
+// Bourbonpug v1.0.2 -
 // by pixelminds, 2017 -
 // GNU General Public License v3 -
 // https://github.com/pixelminds/bourbonpug
+ 
+// 5. objects (ITCSS)
+// class-based selectors (SMACSS modules)
 
-// layout (as in SMACSS, ITCSS settings)
+// 5.1 generic classes
+// 5.2 footer
 
-$gwidth: 65%;
-$mwidth: 80%;
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-section {
-    width: $gwidth;
-    margin: auto;
-}
-
+// variables
 // footer
+  // $base-spacing
+  // $medium-screen
+  // $large-screen
+  $footer-background: desaturate(darken($action-color, 20%), 30%);
+  $footer-color: white;
+  $footer-link-color: transparentize($footer-color, 0.6);
+  $footer-disclaimer-color: transparentize($footer-color, 0.6);
+  
+// 5.1 generic classes
+
+ol.default {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-bottom: 1.2em;
+  > li {
+    margin-bottom: 0.3em;
+  }
+}
+
+ul.default {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-bottom: 1.2em;
+  > li {
+    margin-bottom: 0.3em;
+  }
+}
+
+img.right {
+  float: right;
+}
+
+p.social {
+  text-align:center;
+}
+
+i.fa {
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+// 5.2 footer
 
 .footer {
   background: $footer-background;

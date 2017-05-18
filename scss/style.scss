@@ -1,4 +1,4 @@
-/* Bourbonpug v1.0.1 -
+/* Bourbonpug v1.0.2 -
 by pixelminds, 2017 -
 GNU General Public License v3 -
 https://github.com/pixelminds/bourbonpug */
@@ -7,10 +7,11 @@ https://github.com/pixelminds/bourbonpug */
 @import "../lib/neat";
 @import "../lib/base/base";
 
-@import "resets";
-@import "variables";
+@import "1-settings";
+@import "2-tools";
 
-@import "layout";
-@import "tools";
-@import "elements";
-@import "theme";
+@import "3-generic";
+@import "4-elements";
+@import "5-objects";
+@import "6-components";
+@import "7-trumps";
