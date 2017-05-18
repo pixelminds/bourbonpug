@@ -7,11 +7,12 @@ https://github.com/pixelminds/bourbonpug */
 @import "../lib/neat";
 @import "../lib/base/base";
 
-@import "1-settings";
-@import "2-tools";
-
-@import "3-generic";
-@import "4-elements";
-@import "5-objects";
-@import "6-components";
-@import "7-trumps";
+// These do not generate CSS
+@import "1-settings"; // global variables
+@import "2-tools"; // mixins and functions
+// These do generate CSS
+@import "3-generic"; // resets
+@import "4-elements"; // unclassed elements
+@import "5-objects"; // class-based selectors
+@import "6-components"; // UI pieces 
+@import "7-trumps"; // exceptions and overrides
